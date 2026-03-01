@@ -7,11 +7,10 @@
           <h1 class="ws-hero__title">流浪靈魂</h1>
           <p class="ws-hero__tagline">以缺點為主題的交友軟體</p>
           <div class="ws-hero__stores">
-            <button class="store store--apple" type="button">
-
-              <img src="../assets/app-store.png" alt="App Store" class="store__icon-image">
+            <button class="store store--apple store-disabled" type="button" disabled>
+              <img src="../assets/app-store.png" alt="App Store" class="store__icon-image ">
               <span class="store__text">
-                <span class="store__label">立即下載 </span>
+                <span class="store__label">尚未開放</span>
                 <span class="store__brand">App Store</span>
               </span>
             </button>

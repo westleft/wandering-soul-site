@@ -4,7 +4,6 @@
       <section class="ws-legal">
         <header class="ws-legal__header">
           <h1 class="ws-legal__title">隱私權政策</h1>
-          <p class="ws-legal__meta">最近更新：2026 年 2 月 26 日</p>
           <p class="ws-legal__note">
             感謝你使用「流浪靈魂」（以下稱「本服務」）。我們非常重視你的個人資料與隱私權，以下說明我們如何蒐集、使用與保護你的資訊。
           </p>
@@ -145,16 +144,6 @@
         </div>
       </section>
     </main>
-
-    <footer class="ws-footer">
-      <div class="ws-footer__left">
-        <span>© 2026 Wandering Soul. 保留所有權利。</span>
-      </div>
-      <div class="ws-footer__center">
-        <RouterLink to="/privacy">隱私政策</RouterLink>
-        <RouterLink to="/terms">服務條款</RouterLink>
-      </div>
-    </footer>
   </div>
 </template>
 
@@ -167,7 +156,6 @@
   display: flex;
   flex-direction: column;
   color: #e5e7eb;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
   background-color: #192955;
 }
 
@@ -239,40 +227,9 @@
   margin-top: 0.5rem;
 }
 
-.ws-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1.5rem 3.5rem 2rem;
-  font-size: 0.8rem;
-  color: #6b7280;
-  border-top: 1px solid rgba(31, 41, 55, 0.9);
-  background: radial-gradient(circle at top, #020617 0, #000 70%);
-}
-
-.ws-footer__center {
-  display: flex;
-  gap: 1.5rem;
-}
-
-.ws-footer__center a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.ws-footer__center a:hover {
-  color: #e5e7eb;
-}
-
 @media (max-width: 960px) {
   .ws-main {
     padding-inline: 1.5rem;
-  }
-
-  .ws-footer {
-    flex-direction: column;
-    gap: 0.75rem;
-    text-align: center;
   }
 }
 

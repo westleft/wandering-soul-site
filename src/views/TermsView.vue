@@ -131,16 +131,6 @@
         </div>
       </section>
     </main>
-
-    <footer class="ws-footer">
-      <div class="ws-footer__left">
-        <span>© 2026 Wandering Soul. 保留所有權利。</span>
-      </div>
-      <div class="ws-footer__center">
-        <RouterLink to="/privacy">隱私政策</RouterLink>
-        <RouterLink to="/terms">服務條款</RouterLink>
-      </div>
-    </footer>
   </div>
 </template>
 
@@ -154,7 +144,6 @@
     display: flex;
     flex-direction: column;
     color: #e5e7eb;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
     background-color: #192955;
   }
 
@@ -228,40 +217,9 @@
     margin-top: 0.5rem;
   }
 
-  .ws-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1.5rem 3.5rem 2rem;
-    font-size: 0.8rem;
-    color: #6b7280;
-    border-top: 1px solid rgba(31, 41, 55, 0.9);
-    background: radial-gradient(circle at top, #020617 0, #000 70%);
-  }
-
-  .ws-footer__center {
-    display: flex;
-    gap: 1.5rem;
-
-    a {
-      color: inherit;
-      text-decoration: none;
-    }
-
-    a:hover {
-      color: #e5e7eb;
-    }
-  }
-
   @media (max-width: 960px) {
     .ws-main {
       padding-inline: 1.5rem;
-    }
-
-    .ws-footer {
-      flex-direction: column;
-      gap: 0.75rem;
-      text-align: center;
     }
   }
 

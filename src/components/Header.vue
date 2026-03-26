@@ -13,6 +13,7 @@ const routes = [
   { path: '/', name: 'home', displayName: '首頁' },
   { path: '/privacy', name: 'privacy', displayName: '隱私政策' },
   { path: '/terms', name: 'terms', displayName: '服務條款' },
+  { path: '/contact', name: 'contact', displayName: '聯絡我們' },
 ]
 
 const toggleMenu = () => {

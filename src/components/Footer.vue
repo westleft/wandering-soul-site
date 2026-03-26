@@ -4,9 +4,9 @@
       <span>© 2026 Wandering Soul. 保留所有權利。</span>
     </div>
     <div class="footer-links">
-      <a id="privacy" href="#privacy">隱私政策</a>
-      <a id="terms" href="#terms">服務條款</a>
-      <a href="#contact">聯繫我們</a>
+      <RouterLink id="privacy" to="/privacy">隱私政策</RouterLink>
+      <RouterLink id="terms" to="/terms">服務條款</RouterLink>
+      <RouterLink to="/contact">聯絡我們</RouterLink>
     </div>
   </footer>
 </template>

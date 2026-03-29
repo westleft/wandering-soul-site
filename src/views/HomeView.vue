@@ -32,7 +32,7 @@ import StorySection from '../components/home/StorySection.vue'
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 6rem;
+    gap: 1.2rem;
   }
 }
 

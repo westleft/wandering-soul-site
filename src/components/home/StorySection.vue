@@ -73,6 +73,7 @@
   }
 
   .kicker {
+    margin: 0;
     font-size: 0.74rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
@@ -81,7 +82,8 @@
   }
 
   .title {
-    margin-top: 0.65rem;
+    margin: 0;
+    margin-top: 0.45rem;
     font-size: clamp(1.9rem, 3.9vw, 2.8rem);
     line-height: 1.2;
     color: #f6f8ff;
@@ -89,11 +91,19 @@
   }
 
   .text {
-    margin-top: 0.95rem;
+    margin: 0;
     font-size: 1rem;
     line-height: 1.78;
     color: #b6c3e5;
     max-width: 58ch;
+  }
+
+  .title + .text {
+    margin-top: 0.62rem;
+  }
+
+  .text + .text {
+    margin-top: 0.4rem;
   }
 
   .side {
@@ -105,6 +115,7 @@
   }
 
   .quote {
+    margin: 0;
     font-size: clamp(1.1rem, 2.3vw, 1.45rem);
     line-height: 1.4;
     color: #dfe8ff;
